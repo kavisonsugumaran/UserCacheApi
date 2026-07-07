@@ -1,0 +1,31 @@
+@UserCacheApi_HostAddress = https://localhost:7222
+
+### Get All Users
+GET {{UserCacheApi_HostAddress}}/api/users
+Accept: application/json
+
+###
+
+### Get User By ID (Valid)
+GET {{UserCacheApi_HostAddress}}/api/users/1
+Accept: application/json
+
+###
+
+### Get User By ID (Another Valid ID)
+GET {{UserCacheApi_HostAddress}}/api/users/5
+Accept: application/json
+
+###
+
+### Get User By ID (Not Found)
+GET {{UserCacheApi_HostAddress}}/api/users/999
+Accept: application/json
+
+###
+
+### Get User By ID (Invalid)
+GET {{UserCacheApi_HostAddress}}/api/users/-1
+Accept: application/json
+
+###

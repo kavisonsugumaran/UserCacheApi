@@ -1,0 +1,39 @@
+# Build results
+bin/
+obj/
+
+# Visual Studio
+.vs/
+.vscode/
+*.user
+*.userprefs
+*.sln.iml
+
+# Build and release folders
+[Bb]in/
+[Oo]bj/
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+
+# IDE specific files
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Application settings
+appsettings.Development.json
+appsettings.Local.json
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Environment files
+.env
+.env.local
