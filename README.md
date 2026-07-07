@@ -1,4 +1,4 @@
-﻿User Cache API
+﻿# User Cache API
 
 This is a small ASP.NET Core Web API built for the assessment. It reads user data from the public JSONPlaceholder API and stores the results in SQL Server so the same data can be served from the database on later requests.
 
